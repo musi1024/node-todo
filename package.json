@@ -1,0 +1,23 @@
+{
+  "name": "musi-node-todo",
+  "version": "1.0.3",
+  "main": "index.js",
+  "bin": {
+    "todo": "cli.js"
+  },
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "musi",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^6.0.0",
+    "inquirer": "^7.3.3"
+  },
+  "devDependencies": {
+    "jest": "^26.4.0"
+  }
+}
